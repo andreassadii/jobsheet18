@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Busana">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:id="@+id/busana"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:text="BUSANA"
+        android:textSize="35sp"
+        android:layout_marginBottom="349dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Tata Busana adalah kompetensi keahlian program studi keahlian Tata Busana yang menekankan pada bidang pembuatan busana dalam pengelolaan dan penyelenggaraan usaha busana serta mampu berkompetisi dalam mengembangkan sikap profesional dalam bidang busana"
+        android:textSize="20sp"
+        android:fontFamily="sans-serif"
+        android:layout_marginTop="70sp"
+        android:textAlignment="center"/>
+</FrameLayout>
